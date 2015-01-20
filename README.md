@@ -10,6 +10,8 @@ Run app with `npm start`.
 bash```
 heroku login
 heroku create
+# if you decided to rename your app in heroku:
+git remote set-url heroku https://git.heroku.com/NEW_NAME_OF_YOUR_APP.git
 
 heroku config:set INSTAGRAM_CLIENT_ID=YOUR_CLIENT_ID
 
