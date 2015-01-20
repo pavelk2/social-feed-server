@@ -11,7 +11,7 @@ module.exports = {
 		access_token: process.env.google_access_token
 	},
 	instagram: {
-		client_id: process.env.instagram_client_id
+		client_id: process.env.INSTAGRAM_CLIENT_ID
 	},
 	vk:{
 
