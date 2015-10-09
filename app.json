@@ -21,7 +21,7 @@
       "required": false
     },
     "CORS_URL": {
-      "description": "The url from which requests are sent in a browser",
+      "description": "The url from which requests are sent via browser",
       "required": true
     }
   } 
