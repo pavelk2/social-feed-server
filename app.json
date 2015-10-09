@@ -19,6 +19,10 @@
     "INSTAGRAM_CLIENT_ID": {
       "description": "Place here your instagram application client_id",
       "required": false
+    },
+    "CORS_URL": {
+      "description": "The url from which requests are sent in a browser",
+      "required": true
     }
   } 
 }
