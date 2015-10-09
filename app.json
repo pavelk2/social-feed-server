@@ -1,0 +1,24 @@
+{
+  "name": "Social-feed-server",
+  "description": "A server proxy for requests to social networks from Social-feed",
+  "repository": "https://github.com/pavelk2/social-feed-server",
+  "keywords": ["express", "social-feed","social-networks"],
+  "env": {
+    "HEROKU_URL": {
+      "description": "The URL of this Heroku app.",
+      "value": "http://YOURAPPNAME.herokuapp.com"
+    },
+    "FACEBOOK_TOKEN": {
+      "description": "Place here your facebook app access_token",
+      "required": false
+    },
+    "GOOGLE_TOKEN": {
+      "description": "Place here your google app access_token",
+      "required": false
+    },
+    "INSTAGRAM_CLIENT_ID": {
+      "description": "Place here your instagram application client_id",
+      "required": false
+    }
+  } 
+}
