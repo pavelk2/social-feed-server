@@ -10,10 +10,8 @@ app.use(logger);
 app.use(cors);
 app.use('/', networks);
 
-
-
 var port = process.env.PORT || 3000;
 
 app.listen(port, function() {
-  console.log('Listening on 3000');
+  console.log('Listening on '+port);
 });
